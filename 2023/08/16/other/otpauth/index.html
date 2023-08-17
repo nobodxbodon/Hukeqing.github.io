@@ -16,22 +16,26 @@
   <meta name="author" content="Shiroha">
   <meta name="keywords" content="">
   
-    <meta name="description" content="用户态和内核态 什么时候从用户态转为内核态 程序在用户态执行时，当需要进行系统调用的时候，或者遇到异常，或者外围设备引发的中断，如文件读取与写入，程序报错，键盘输入，网络操作等行为时，程序会从用户态转为内核态，直到执行此行为结束时，再返回用户态   为什么要转至内核态 通过限制用户态的权利，使得有限的系统资源能够受到系统的控制与管理，由系统进行资源的分配   用户态和内核态的切换原理 实质上就是中">
+    <meta name="description" content="起因昨天突然 GitHub 给我发了一封邮件，要求我必须添加 2FA 的验证  好吧好吧，那就创建吧。但是在创建的过程中，GitHub 问我是否有使用 1Password 之类的软件，如果有的话，可以扫码添加 2FA 嗯？？？因为我基本上是躺在 Apple 生态里的，所以选择让 Apple 自带的密码管理系统试试看，于是直接扫码了 GitHub 提供的二维码 结果扫码之后果真添加了 2FA 的能力">
 <meta property="og:type" content="article">
-<meta property="og:title" content="面试复习（操作系统）">
-<meta property="og:url" content="http://example.com/2021/02/22/interview/operating-system/">
+<meta property="og:title" content="OTPAUTH，两步验证中的通用协议">
+<meta property="og:url" content="http://example.com/2023/08/16/other/otpauth/">
 <meta property="og:site_name" content="Shiroha白羽的博客">
-<meta property="og:description" content="用户态和内核态 什么时候从用户态转为内核态 程序在用户态执行时，当需要进行系统调用的时候，或者遇到异常，或者外围设备引发的中断，如文件读取与写入，程序报错，键盘输入，网络操作等行为时，程序会从用户态转为内核态，直到执行此行为结束时，再返回用户态   为什么要转至内核态 通过限制用户态的权利，使得有限的系统资源能够受到系统的控制与管理，由系统进行资源的分配   用户态和内核态的切换原理 实质上就是中">
+<meta property="og:description" content="起因昨天突然 GitHub 给我发了一封邮件，要求我必须添加 2FA 的验证  好吧好吧，那就创建吧。但是在创建的过程中，GitHub 问我是否有使用 1Password 之类的软件，如果有的话，可以扫码添加 2FA 嗯？？？因为我基本上是躺在 Apple 生态里的，所以选择让 Apple 自带的密码管理系统试试看，于是直接扫码了 GitHub 提供的二维码 结果扫码之后果真添加了 2FA 的能力">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-02-22T16:45:44.000Z">
-<meta property="article:modified_time" content="2023-08-17T00:23:59.267Z">
+<meta property="og:image" content="http://example.com/image/other/github-email.png">
+<meta property="og:image" content="http://example.com/image/other/password.png">
+<meta property="og:image" content="http://example.com/image/other/qr-code.png">
+<meta property="article:published_time" content="2023-08-16T00:46:46.000Z">
+<meta property="article:modified_time" content="2023-08-17T00:23:59.271Z">
 <meta property="article:author" content="Shiroha">
-<meta property="article:tag" content="面试准备">
-<meta property="article:tag" content="操作系统">
+<meta property="article:tag" content="otpauth">
+<meta property="article:tag" content="2FA">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/image/other/github-email.png">
   
   
-  <title>面试复习（操作系统） - Shiroha白羽的博客</title>
+  <title>OTPAUTH，两步验证中的通用协议 - Shiroha白羽的博客</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -192,7 +196,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="面试复习（操作系统）">
+            <span class="h2" id="subtitle" title="OTPAUTH，两步验证中的通用协议">
               
             </span>
 
@@ -207,8 +211,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-02-23 00:45" pubdate>
-        2021年2月23日 凌晨
+      <time datetime="2023-08-16 08:46" pubdate>
+        2023年8月16日 早上
       </time>
     </span>
   
@@ -218,7 +222,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      810 字
+      1.5k 字
     </span>
   
 
@@ -227,7 +231,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      7 分钟
+      13 分钟
     </span>
   
 
@@ -268,7 +272,7 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">面试复习（操作系统）</h1>
+            <h1 style="display: none">OTPAUTH，两步验证中的通用协议</h1>
             
               <p class="note note-info">
                 
@@ -277,77 +281,24 @@
               </p>
             
             <div class="markdown-body">
-              <h1 id="用户态和内核态"><a href="#用户态和内核态" class="headerlink" title="用户态和内核态"></a>用户态和内核态</h1><ul>
-<li>什么时候从用户态转为内核态<ul>
-<li>程序在用户态执行时，当需要进行系统调用的时候，或者遇到异常，或者外围设备引发的中断，如文件读取与写入，程序报错，键盘输入，网络操作等行为时，程序会从用户态转为内核态，直到执行此行为结束时，再返回用户态</li>
-</ul>
-</li>
-<li>为什么要转至内核态<ul>
-<li>通过限制用户态的权利，使得有限的系统资源能够受到系统的控制与管理，由系统进行资源的分配</li>
-</ul>
-</li>
-<li>用户态和内核态的切换原理<ul>
-<li>实质上就是中断，保存当前用户态的所有寄存器信息等，然后将代码指针指向中断处理程序</li>
-</ul>
-</li>
-</ul>
-<h1 id="进程和线程"><a href="#进程和线程" class="headerlink" title="进程和线程"></a>进程和线程</h1><ul>
-<li>区别<ul>
-<li>进程是相对于操作系统的最小单位，每个进程都有唯一一个 PID 与之对应，每个进程都有独立的内存空间，代码段，数据段。进程之间相互独立且不会相互影响，一个进程可以包含多个线程。CPU在多个进程之间切换时会带来较大的开销。进程可以由CPU单独启动</li>
-<li>线程是相对于处理器的最小单位，单个CPU只能同时处理一个线程，相同进程的线程之间共用内存空间，共用代码段和数据段，线程不可以单独执行，线程没有 PID 用于区别，线程出现错误或者异常时会影响此进程内的所有线程，CPU在同一个进程的线程内切换所带来的开销相对较小</li>
-</ul>
-</li>
-<li>进程之间的通信<ul>
-<li>管道（无名和有名管道）</li>
-<li>消息队列</li>
-<li>共享内存<ul>
-<li>不同的进程可以同时将同一个内存页面映射到自己的地址空间中</li>
-</ul>
-</li>
-<li>信号</li>
-<li>套接口（网络）</li>
-</ul>
-</li>
-<li>线程之间的通信<ul>
-<li>锁机制（互斥锁、读写锁）</li>
-<li>wait 和 notify</li>
-<li>violate</li>
-</ul>
-</li>
-<li>进程切换代价<ul>
-<li>切换页目录</li>
-<li>切换内核栈</li>
-<li>切换上下文</li>
-</ul>
-</li>
-<li>线程切换代价<ul>
-<li>切换内核栈</li>
-<li>切换上下文</li>
-</ul>
-</li>
-</ul>
-<h1 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h1><ul>
-<li>内存寻址是如何实现的<ul>
-<li>段页式，程序进行分段，包括代码段，数据段等等，每一段再分页，并由 MMU 保存页表</li>
-<li>MMU 通过页表将逻辑地址转为物理地址</li>
-</ul>
-</li>
-</ul>
-<h1 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h1><ul>
-<li>缓存列<ul>
-<li>每次计算机读取数据放入缓存的单位长度</li>
-</ul>
-</li>
-</ul>
-<h1 id="文件系统"><a href="#文件系统" class="headerlink" title="文件系统"></a>文件系统</h1><ul>
-<li>iNode 结构<ul>
-<li>文件树结构保存了一个目录的子文件/目录的名称以及对应的 iNode 号码</li>
-<li>需要访问文件内容时，需要通过 iNode 号码来获取文件的详细信息</li>
-<li>iNode 不包含文件名信息，指包含文件的 “元信息”</li>
-</ul>
-</li>
-</ul>
-<h1 id="中断"><a href="#中断" class="headerlink" title="中断"></a>中断</h1>
+              <h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>昨天突然 GitHub 给我发了一封邮件，要求我必须添加 2FA 的验证</p>
+<p><img src="/image/other/github-email.png" srcset="/img/loading.gif" lazyload alt="GitHub-email"></p>
+<p>好吧好吧，那就创建吧。但是在创建的过程中，GitHub 问我是否有使用 1Password 之类的软件，如果有的话，可以扫码添加 2FA</p>
+<p>嗯？？？因为我基本上是躺在 Apple 生态里的，所以选择让 Apple 自带的密码管理系统试试看，于是直接扫码了 GitHub 提供的二维码</p>
+<p>结果扫码之后果真添加了 2FA 的能力</p>
+<p><img src="/image/other/password.png" srcset="/img/loading.gif" lazyload alt="password"></p>
+<p>这个验证码很像 steam 使用的那种自生成的两步验证码，这让我觉得似乎有一种通用协议，来实现这样一套东西。立马开整</p>
+<p>第一步，再搞到一份这样的二维码。我翻阅了 GitHub 的文档，最终找到了一份 GitHub 提供的示例二维码</p>
+<p><img src="/image/other/qr-code.png" srcset="/img/loading.gif" lazyload alt="qr-code"></p>
+<p>接着直接读取二维码内的信息得到了这样一个地址: <code>otpauth://totp/GitHub:octocat-testing?secret=F76W4SX573PDRIDA&amp;issuer=GitHub</code></p>
+<p>嗯，看起来是有一个用 OTPAUTH 的验证协议，其中 OTP 大概率就是 One Time Password 了。</p>
+<h1 id="OTP-协议"><a href="#OTP-协议" class="headerlink" title="OTP 协议"></a>OTP 协议</h1><p>一般 OTP 有两种策略：</p>
+<p>计次使用（HOTP）和计时使用（TOTP）。计次使用的密码使用过一次就失效；计时使用的密码过一段时间就失效。</p>
+<blockquote>
+<p>HOTP 的全称是 HMAC-based One Time Password，它是基于 HMAC 的一次性密码生成算法。HMAC 的全称是 Hash-based Message Authentication Code，是指密钥相关的哈希运算消息认证码。HMAC 利用 MD5、SHA-1 等哈希算法，针对输入的密钥和消息，输出消息摘要。HOTP 算法中，传入密钥 K 和计数器 C，得到数字校验码。<br>实际使用 HOTP 中，服务端会给用户生成密钥 K，并约定起始计数器 C。客户端根据 K 和 C 生成校验码，并在用户点击刷新按钮后将计数器加 1，同时更新校验码；而服务端会在每次校验成功后将计数器加 1，这就保证了校验码只能使用一次。但客户端刷新并不通知服务端，很可能出现客户端计数器大于服务端的情况。所以一般的实现里，服务端如果用 PASSWORD = HOTP(K, C) 验证失败，还会尝试 C+1、C+2…，如果匹配上了，就更新服务端的计数器，保证跟客户端步调一致。出于安全考虑，服务端会设置一个最大值，并不会无限制地尝试下去。<br>HOTP 的优点是可以事先算好一批校验码，用户可以把他们打印出来随身携带逐个使用，用一个划掉一个，达到客户端计数器累加的效果，这样可以完全不依赖于电子设备。HOTP 的缺点是计数器很容易不一致，服务端经常需要通过不断尝试来同步计数器，从而降低了安全性。<br>TOTP 的全称是 Time-based One-time Password，它是基于时间的一次性密码生成算法。TOTP 算法需要约定一个起始时间戳 T0，以及间隔时间 TS。把当前时间戳 now 减去 T0，用得到的时间差除以 TS 并取整，可以得到整数 TC。根据 PASSWORD = HOTP(K, TC) 就可以得到数字校验码。<br>TOTP 实际上只是把 HOTP 的递增计数器换成了与当前时间有关的 TS，从而在服务端 / 客户端时间一致的前提下，解决了 HOTP 需要同步计数器的问题。同时，TOTP 算法需要用到当前时间，需要现场计算，无法提前算好打印出来。默认情况下，TOTP 在间隔时间 TS 内都能通过校验，并不是一次有效。这个问题可以通过在服务端记录最后一次 TC 来解决，由于 TS 一般很短，通常也可以忽略。</p>
+</blockquote>
+<p>翻阅 (google-authenticator)[<a target="_blank" rel="noopener" href="https://github.com/google/google-authenticator/wiki/Key-Uri-Format">https://github.com/google/google-authenticator/wiki/Key-Uri-Format</a>] 的 wiki 可以看到，这里有非常详细关于 URL 的参数的描述</p>
+
             </div>
             <hr>
             <div>
@@ -356,7 +307,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+                      <a class="hover-with-bg" href="/categories/%E6%9D%82%E9%A1%B9/">杂项</a>
                     
                   </div>
                 
@@ -364,9 +315,9 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/">面试准备</a>
+                      <a class="hover-with-bg" href="/tags/otpauth/">otpauth</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a>
+                      <a class="hover-with-bg" href="/tags/2FA/">2FA</a>
                     
                   </div>
                 
@@ -383,18 +334,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/02/23/interview/computer-network/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">面试复习（计算机网络）</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/02/22/interview/cpp/">
-                        <span class="hidden-mobile">面试复习（C++）</span>
+                      <a href="/2023/08/13/acm/CodeforcesRound892(Div.%202)/">
+                        <span class="hidden-mobile">Codeforces Round 892 (Div. 2)</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -601,9 +546,58 @@
 
 
 
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        loader: {
+          
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-svg.js" ></script>
+
+  
 
 
 
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/mermaid@8.8.3/dist/mermaid.min.js" ></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({"theme":"default"});
+    }
+  </script>
 
 
 
