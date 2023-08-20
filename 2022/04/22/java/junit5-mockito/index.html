@@ -19,7 +19,7 @@
     <meta name="description" content="什么是单元测试单元测试就是一部分代码，但是它  不会在正常的业务流程中被执行 不被打包进入最终的编译程序 不会被任何其他业务代码以任何方式导入 不会影响正常的代码  当然，它通常还要满足下面这些条件  自动化的，不需要人工输入任何数据即可完成 独立的，任何两个单元测试之间都不应该发生调用关系 可重复的，单元测试可以无限重复执行且结果应该一致  传统的单元测试，即是测试一个函数是否正确运行。单元测试">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用 Junit5 和 Mockito 实现 SpringBoot 的单元测试最优美的解决方案">
-<meta property="og:url" content="http://example.com/2022/04/22/java/junit5-mockito/">
+<meta property="og:url" content="https://blog.mauve.icu/2022/04/22/java/junit5-mockito/">
 <meta property="og:site_name" content="Shiroha白羽的博客">
 <meta property="og:description" content="什么是单元测试单元测试就是一部分代码，但是它  不会在正常的业务流程中被执行 不被打包进入最终的编译程序 不会被任何其他业务代码以任何方式导入 不会影响正常的代码  当然，它通常还要满足下面这些条件  自动化的，不需要人工输入任何数据即可完成 独立的，任何两个单元测试之间都不应该发生调用关系 可重复的，单元测试可以无限重复执行且结果应该一致  传统的单元测试，即是测试一个函数是否正确运行。单元测试">
 <meta property="og:locale" content="zh_CN">
@@ -69,7 +69,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":"G-N2HYL7N8TD","gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"blog.mauve.icu","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":"G-N2HYL7N8TD","gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
