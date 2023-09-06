@@ -2,6 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.mauve.icu/2022/03/24/develop-note/gitbook-install-error/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2022/03/19/develop-note/java-create-captcha/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/01/01/develop-note/mysql-reset/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2023/08/16/develop-note/otpauth/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2022/05/29/develop-note/sql-left-join-fail/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/01/18/develop-note/windows-ntfs/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/01/27/develop-note/wsl-clean/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2020/12/24/develop-note/wsl-docker/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/06/07/develop-note/wsl-localhost/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/05/17/front-end/Front-end-image-cropping-effect/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/03/27/interview/algorithm/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/03/27/interview/computer-graphics/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mauve.icu/2021/02/23/interview/computer-network/</loc>
     
     <lastmod>2023-09-06</lastmod>
@@ -200,114 +308,6 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2022/03/24/develop-note/gitbook-install-error/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2022/03/19/develop-note/java-create-captcha/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/01/01/develop-note/mysql-reset/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2023/08/16/develop-note/otpauth/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2022/05/29/develop-note/sql-left-join-fail/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/01/18/develop-note/windows-ntfs/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/01/27/develop-note/wsl-clean/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2020/12/24/develop-note/wsl-docker/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/06/07/develop-note/wsl-localhost/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/05/17/front-end/Front-end-image-cropping-effect/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/03/27/interview/algorithm/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/03/27/interview/computer-graphics/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.mauve.icu/2021/01/25/acm/codeforces/CodeforcesRound697(Div.%203)/</loc>
     
     <lastmod>2023-09-06</lastmod>
@@ -461,15 +461,6 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2019/07/21/acm/other-note/2019NowCoderSummerMulti-School-1-E%20ABBA/</loc>
-    
-    <lastmod>2023-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.mauve.icu/2021/11/21/acm/other-note/2021-ZJGSU-ACM-freshman-competition/</loc>
     
     <lastmod>2023-09-06</lastmod>
@@ -489,6 +480,42 @@
   
   <url>
     <loc>https://blog.mauve.icu/2019/07/11/acm/other-note/NWUTrainingTeamTrial-D%20warm%20sign-in/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2019/07/23/acm/other-note/2019-multi-school/HDU6578-1-1001-Blank/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2019/07/23/acm/other-note/2019-multi-school/HDU6578-1-1005-Path/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2019/07/21/acm/other-note/2019-multi-school/NowCoder-1-E-ABBA/</loc>
+    
+    <lastmod>2023-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2019/07/26/acm/other-note/2019-multi-school/NowCoder-3-J-LRU-management/</loc>
     
     <lastmod>2023-09-06</lastmod>
     
@@ -862,14 +889,14 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/tags/NowCoder/</loc>
+    <loc>https://blog.mauve.icu/tags/HDU/</loc>
     <lastmod>2023-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/tags/HDU/</loc>
+    <loc>https://blog.mauve.icu/tags/NowCoder/</loc>
     <lastmod>2023-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
