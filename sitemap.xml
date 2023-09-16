@@ -2,42 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.mauve.icu/2023/09/03/cpp/lvalue-xvalue-prvalue/</loc>
-    
-    <lastmod>2023-09-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/10/13/cpp/thread-pool/</loc>
-    
-    <lastmod>2023-09-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/11/18/develop-note/dockerfile-run-apt-install-jdk-8/</loc>
-    
-    <lastmod>2023-09-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/11/25/develop-note/git-remote-reconnect/</loc>
-    
-    <lastmod>2023-09-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.mauve.icu/2022/03/24/develop-note/gitbook-install-error/</loc>
     
     <lastmod>2023-09-16</lastmod>
@@ -309,6 +273,42 @@
   
   <url>
     <loc>https://blog.mauve.icu/2022/01/12/cpp/cpp-template-variable-parameter-to-c/</loc>
+    
+    <lastmod>2023-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2023/09/03/cpp/lvalue-xvalue-prvalue/</loc>
+    
+    <lastmod>2023-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/10/13/cpp/thread-pool/</loc>
+    
+    <lastmod>2023-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/11/18/develop-note/dockerfile-run-apt-install-jdk-8/</loc>
+    
+    <lastmod>2023-09-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/11/25/develop-note/git-remote-reconnect/</loc>
     
     <lastmod>2023-09-16</lastmod>
     
