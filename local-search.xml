@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>反复横跳的 Clang-Tidy(cert-dcl21-cpp)</title>
+    <link href="/2023/12/04/cpp/cpp-cert-dcl21-cpp/"/>
+    <url>/2023/12/04/cpp/cpp-cert-dcl21-cpp/</url>
+    
+    <content type="html"><![CDATA[<p>今天早上有些发烧，就没去上班，下午稍微好点了之后就爬起来折腾会代码，写着写着就发现了一个奇怪的东西。把代码抽出核心部分类似如下的代码</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">A</span> &#123;</span><br>    <span class="hljs-keyword">int</span> v;<br><br>    A <span class="hljs-keyword">operator</span>++(<span class="hljs-keyword">int</span>) <span class="hljs-keyword">noexcept</span> &#123; <span class="hljs-keyword">return</span> A(v++); &#125;<br>&#125;<br></code></pre></td></tr></table></figure><p>这里返回的值是一个自身为 <code>A</code> 的右值，理论上并不需要明确指明右值（即返回值写 <code>A&amp;&amp;</code>），因为返回值本身肯定是右值，在原来的栈中如果进行赋值操作的时候，会先尝试进行移动构造，如果没有提供移动构造的情况下才会尝试进行引用构造甚至是复制构造</p><p>但是这段代码，Clang-Tidy 却给我报了 Warning: <code>Clang-Tidy: Overloaded &#39;operator++&#39; returns a non-constant object instead of a constant object type</code></p><p>大致意思是说，<code>operator++</code> 方法返回了一个非 <code>const</code> 的变量。看了下事例，大概意思是说，因为返回值是一个”临时”的类型（毕竟是一个右值，用完应该就要丢掉的）故需要 <code>const</code> 一下，避免会出现 <code>(i++)++;</code> 这种离谱的代码（后者的 <code>++</code> 是作用在返回的右值上的，实际上不会对原来的值生效）</p><p>一听，好像有点道理，自动修复一下</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">A</span> &#123;</span><br>    <span class="hljs-keyword">int</span> v;<br><br>    <span class="hljs-keyword">const</span> A <span class="hljs-keyword">operator</span>++(<span class="hljs-keyword">int</span>) <span class="hljs-keyword">noexcept</span> &#123; <span class="hljs-keyword">return</span> A(v++); &#125;<br>&#125;<br></code></pre></td></tr></table></figure><p>嗯，这样应该就行了吧。然后 Clang-Tidy 又给我报了个 Warning：<code>Clang-Tidy: Return type &#39;const A&#39; is &#39;const&#39;-qualified at the top level, which may reduce code readability without improving const correctness</code></p><p>蛤？又告诉我不能带 <code>const</code>，因为这可能会导致不必要的代码理解？看了下例子，也非常好理解，因为返回值是一个右值，最终（指代通常情况下）都应该被移动构造，这样的话，实际上 <code>const</code> 仅仅是对右值进行了 <code>const</code> 标识，并没有什么用处</p><p>也就是说，加也不对，不加也不对……</p><p>在翻找了一堆资料后，发现了这两个 checker 的文档：</p><ul><li><a href="https://clang.llvm.org/extra/clang-tidy/checks/cert/dcl21-cpp.html">cert-dcl21-cpp</a></li><li><a href="https://clang.llvm.org/extra/clang-tidy/checks/readability/const-return-type.html">readability-const-return-type</a></li></ul><p>其中，在前者有这样一句：</p><blockquote><p>It will be removed in clang-tidy version 19.</p></blockquote><p>嗯，再一看自己的 clang-tidy，恰好是 <code>18.0.0</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>杂项</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>C++</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Codeforces Round 905 (Div. 3)</title>
     <link href="/2023/12/03/acm/codeforces/CodeforcesRound906(Div.%202)/"/>
     <url>/2023/12/03/acm/codeforces/CodeforcesRound906(Div.%202)/</url>
