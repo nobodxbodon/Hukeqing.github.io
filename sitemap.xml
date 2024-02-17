@@ -11,6 +11,141 @@
   </url>
   
   <url>
+    <loc>https://blog.mauve.icu/2021/11/18/develop-note/dockerfile-run-apt-install-jdk-8/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/11/25/develop-note/git-remote-reconnect/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2022/03/24/develop-note/gitbook-install-error/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2022/03/19/develop-note/java-create-captcha/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/01/01/develop-note/mysql-reset/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2023/08/16/develop-note/otpauth/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2022/05/29/develop-note/sql-left-join-fail/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/01/18/develop-note/windows-ntfs/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2020/12/24/develop-note/wsl-docker/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/01/27/develop-note/wsl-clean/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/06/07/develop-note/wsl-localhost/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/05/17/front-end/Front-end-image-cropping-effect/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/03/27/interview/algorithm/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/03/27/interview/computer-graphics/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/02/23/interview/computer-network/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mauve.icu/2021/02/22/interview/cpp/</loc>
     
     <lastmod>2024-02-17</lastmod>
@@ -92,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2021/01/07/notebook/Compilation-principle/</loc>
+    <loc>https://blog.mauve.icu/2021/06/10/notebook/Computer-Graphics/</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -101,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2021/06/10/notebook/Computer-Graphics/</loc>
+    <loc>https://blog.mauve.icu/2021/01/07/notebook/Compilation-principle/</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -191,151 +326,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2021/11/18/develop-note/dockerfile-run-apt-install-jdk-8/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/11/25/develop-note/git-remote-reconnect/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2022/03/24/develop-note/gitbook-install-error/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2022/03/19/develop-note/java-create-captcha/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/01/01/develop-note/mysql-reset/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2023/08/16/develop-note/otpauth/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2022/05/29/develop-note/sql-left-join-fail/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/01/18/develop-note/windows-ntfs/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/01/27/develop-note/wsl-clean/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2020/12/24/develop-note/wsl-docker/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/06/07/develop-note/wsl-localhost/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/05/17/front-end/Front-end-image-cropping-effect/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/03/27/interview/algorithm/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/03/27/interview/computer-graphics/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/02/23/interview/computer-network/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.mauve.icu/2020/01/05/acm/luogu/P2444/</loc>
-    
-    <lastmod>2024-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2019/07/11/acm/other-note/HDU2883-kebab-max-flow/</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -353,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2019/10/13/acm/other-note/HDU5934-Bomb/</loc>
+    <loc>https://blog.mauve.icu/2019/07/11/acm/other-note/HDU2883-kebab-max-flow/</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -371,6 +362,15 @@
   </url>
   
   <url>
+    <loc>https://blog.mauve.icu/2019/10/13/acm/other-note/HDU5934-Bomb/</loc>
+    
+    <lastmod>2024-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mauve.icu/2020/01/08/acm/other-note/bzoj2049-Sdoi2008-Cave/</loc>
     
     <lastmod>2024-02-17</lastmod>
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2019/09/14/acm/2019-XCPC-online/Online-Shenyang-G-Special-necklace/</loc>
+    <loc>https://blog.mauve.icu/2019/09/09/acm/2019-XCPC-online/Online-Nanchang-B-Fire-Fighting-Hero/</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -389,7 +389,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2019/09/09/acm/2019-XCPC-online/Online-Nanchang-B-Fire-Fighting-Hero/</loc>
+    <loc>https://blog.mauve.icu/2019/09/14/acm/2019-XCPC-online/Online-Shenyang-G-Special-necklace/</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -1237,14 +1237,14 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/tags/WSL/</loc>
+    <loc>https://blog.mauve.icu/tags/Dokcer/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/tags/Dokcer/</loc>
+    <loc>https://blog.mauve.icu/tags/WSL/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
