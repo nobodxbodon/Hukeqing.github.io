@@ -11,177 +11,6 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2021/05/17/front-end/Front-end-image-cropping-effect/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/03/27/interview/algorithm/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/03/27/interview/computer-graphics/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/02/23/interview/computer-network/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/02/22/interview/cpp/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/02/23/interview/database/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/02/24/interview/git/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/02/25/interview/java/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/02/23/interview/linux/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/02/22/interview/operating-system/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2022/03/22/mac/clion-mac-CMAKE_OSX_SYSROOT/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/11/15/mac/macvim/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/10/24/mac/screen-cut/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/06/10/notebook/Computer-Graphics/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2020/12/26/notebook/Computer-network-experiment/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/01/07/notebook/Compilation-principle/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2021/01/07/notebook/Computer-network/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2022/08/29/thoughts/java-script-null-undefine/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/2020/12/20/acm/myACM/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.mauve.icu/2021/10/13/cpp/Strassen/</loc>
     
     <lastmod>2024-03-10</lastmod>
@@ -326,6 +155,177 @@
   </url>
   
   <url>
+    <loc>https://blog.mauve.icu/2021/05/17/front-end/Front-end-image-cropping-effect/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/03/27/interview/algorithm/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/03/27/interview/computer-graphics/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/02/23/interview/computer-network/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/02/22/interview/cpp/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/02/23/interview/database/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/02/24/interview/git/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/02/25/interview/java/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/02/23/interview/linux/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/02/22/interview/operating-system/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2022/03/22/mac/clion-mac-CMAKE_OSX_SYSROOT/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/11/15/mac/macvim/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/10/24/mac/screen-cut/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/01/07/notebook/Compilation-principle/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/06/10/notebook/Computer-Graphics/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2020/12/26/notebook/Computer-network-experiment/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2021/01/07/notebook/Computer-network/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2022/08/29/thoughts/java-script-null-undefine/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mauve.icu/2020/12/20/acm/myACM/</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mauve.icu/2020/01/05/acm/luogu/P2444/</loc>
     
     <lastmod>2024-03-10</lastmod>
@@ -335,7 +335,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2019/07/11/acm/other-note/HDU2883-kebab-max-flow/</loc>
+    <loc>https://blog.mauve.icu/2021/11/21/acm/other-note/2021-ZJGSU-ACM-freshman-competition/</loc>
     
     <lastmod>2024-03-10</lastmod>
     
@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2021/11/21/acm/other-note/2021-ZJGSU-ACM-freshman-competition/</loc>
+    <loc>https://blog.mauve.icu/2019/07/11/acm/other-note/HDU2883-kebab-max-flow/</loc>
     
     <lastmod>2024-03-10</lastmod>
     
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2019/09/09/acm/2019-XCPC-online/Online-Nanchang-B-Fire-Fighting-Hero/</loc>
+    <loc>https://blog.mauve.icu/2019/09/14/acm/2019-XCPC-online/Online-Shenyang-G-Special-necklace/</loc>
     
     <lastmod>2024-03-10</lastmod>
     
@@ -389,7 +389,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2019/09/14/acm/2019-XCPC-online/Online-Shenyang-G-Special-necklace/</loc>
+    <loc>https://blog.mauve.icu/2019/09/09/acm/2019-XCPC-online/Online-Nanchang-B-Fire-Fighting-Hero/</loc>
     
     <lastmod>2024-03-10</lastmod>
     
@@ -569,7 +569,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/02/14/acm/codeforces/CodeforcesRound913(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2024/02/14/acm/codeforces/CodeforcesRound913/</loc>
     
     <lastmod>2024-02-14</lastmod>
     
@@ -578,7 +578,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/02/12/acm/codeforces/EducationalCodeforcesRound159(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2024/02/12/acm/codeforces/EducationalCodeforcesRound159/</loc>
     
     <lastmod>2024-02-12</lastmod>
     
@@ -587,7 +587,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/02/10/acm/codeforces/CodeforcesRound912(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2024/02/10/acm/codeforces/CodeforcesRound912/</loc>
     
     <lastmod>2024-02-10</lastmod>
     
@@ -596,7 +596,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/02/03/acm/codeforces/CodeforcesRound911(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2024/02/03/acm/codeforces/CodeforcesRound911/</loc>
     
     <lastmod>2024-02-03</lastmod>
     
@@ -605,7 +605,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/01/28/acm/codeforces/CodeTONRound7(Div.%201%20+%20Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2024/01/28/acm/codeforces/CodeTONRound7/</loc>
     
     <lastmod>2024-01-28</lastmod>
     
@@ -614,7 +614,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/01/19/acm/codeforces/EducationalCodeforcesRound158(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2024/01/19/acm/codeforces/EducationalCodeforcesRound158/</loc>
     
     <lastmod>2024-01-19</lastmod>
     
@@ -623,7 +623,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/01/17/acm/codeforces/CodeforcesRound910(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2024/01/17/acm/codeforces/CodeforcesRound910/</loc>
     
     <lastmod>2024-01-17</lastmod>
     
@@ -632,7 +632,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/01/07/acm/codeforces/CodeforcesRound909(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2024/01/07/acm/codeforces/CodeforcesRound909/</loc>
     
     <lastmod>2024-01-07</lastmod>
     
@@ -641,7 +641,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/01/03/acm/codeforces/CodeforcesRound908(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2024/01/03/acm/codeforces/CodeforcesRound908/</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -650,7 +650,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2024/01/01/acm/codeforces/EducationalCodeforcesRound157(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2024/01/01/acm/codeforces/EducationalCodeforcesRound157/</loc>
     
     <lastmod>2024-01-01</lastmod>
     
@@ -668,7 +668,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/12/23/acm/codeforces/CodeforcesRound907(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/12/23/acm/codeforces/CodeforcesRound907/</loc>
     
     <lastmod>2023-12-23</lastmod>
     
@@ -713,7 +713,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/12/03/acm/codeforces/CodeforcesRound906(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/12/03/acm/codeforces/CodeforcesRound906/</loc>
     
     <lastmod>2023-12-03</lastmod>
     
@@ -731,7 +731,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/11/27/acm/codeforces/CodeforcesRound905(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2023/11/27/acm/codeforces/CodeforcesRound905/</loc>
     
     <lastmod>2023-11-27</lastmod>
     
@@ -740,7 +740,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/11/25/acm/codeforces/CodeforcesRound904(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/11/25/acm/codeforces/CodeforcesRound904/</loc>
     
     <lastmod>2023-11-25</lastmod>
     
@@ -749,7 +749,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/11/21/acm/codeforces/CodeforcesRound903(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2023/11/21/acm/codeforces/CodeforcesRound903/</loc>
     
     <lastmod>2023-11-21</lastmod>
     
@@ -758,7 +758,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/11/20/acm/codeforces/EducationalCodeforcesRound156(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/11/20/acm/codeforces/EducationalCodeforcesRound156/</loc>
     
     <lastmod>2023-11-20</lastmod>
     
@@ -767,7 +767,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/10/29/acm/codeforces/CodeforcesRound902(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/10/29/acm/codeforces/CodeforcesRound902/</loc>
     
     <lastmod>2023-10-29</lastmod>
     
@@ -776,7 +776,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/10/28/acm/codeforces/CodeforcesRound901(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/10/28/acm/codeforces/CodeforcesRound901/</loc>
     
     <lastmod>2023-10-28</lastmod>
     
@@ -785,7 +785,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/10/05/acm/codeforces/CodeforcesRound900(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2023/10/05/acm/codeforces/CodeforcesRound900/</loc>
     
     <lastmod>2023-10-05</lastmod>
     
@@ -794,7 +794,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/10/04/acm/codeforces/CodeforcesRound899(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/10/04/acm/codeforces/CodeforcesRound899/</loc>
     
     <lastmod>2023-10-04</lastmod>
     
@@ -803,7 +803,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/10/02/acm/codeforces/EducationalCodeforcesRound155(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/10/02/acm/codeforces/EducationalCodeforcesRound155/</loc>
     
     <lastmod>2023-10-02</lastmod>
     
@@ -821,7 +821,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/09/22/acm/codeforces/CodeTONRound6(Div.%201%20+%20Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/09/22/acm/codeforces/CodeTONRound6/</loc>
     
     <lastmod>2023-09-22</lastmod>
     
@@ -830,7 +830,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/09/16/acm/codeforces/CodeforcesRound897(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/09/16/acm/codeforces/CodeforcesRound897/</loc>
     
     <lastmod>2023-09-16</lastmod>
     
@@ -839,7 +839,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/09/16/acm/codeforces/CodeforcesRound896(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/09/16/acm/codeforces/CodeforcesRound896/</loc>
     
     <lastmod>2023-09-16</lastmod>
     
@@ -848,7 +848,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/09/09/acm/codeforces/CodeforcesRound887(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/09/09/acm/codeforces/CodeforcesRound887/</loc>
     
     <lastmod>2023-09-09</lastmod>
     
@@ -857,7 +857,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/09/08/acm/codeforces/CodeforcesRound895(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2023/09/08/acm/codeforces/CodeforcesRound895/</loc>
     
     <lastmod>2023-09-08</lastmod>
     
@@ -866,7 +866,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/09/02/acm/codeforces/EducationalCodeforcesRound154(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/09/02/acm/codeforces/EducationalCodeforcesRound154/</loc>
     
     <lastmod>2023-09-02</lastmod>
     
@@ -884,7 +884,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/27/acm/codeforces/Harbour.SpaceScholarshipContest2023-2024(Div.%201%20+%20Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/27/acm/codeforces/Harbour.SpaceScholarshipContest2023-2024/</loc>
     
     <lastmod>2023-08-27</lastmod>
     
@@ -893,7 +893,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/25/acm/codeforces/CodeforcesRound894(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/25/acm/codeforces/CodeforcesRound894/</loc>
     
     <lastmod>2023-08-25</lastmod>
     
@@ -902,7 +902,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/20/acm/codeforces/CodeforcesRound888(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/20/acm/codeforces/CodeforcesRound888/</loc>
     
     <lastmod>2023-08-20</lastmod>
     
@@ -911,7 +911,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/19/acm/codeforces/EducationalCodeforcesRound153(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/19/acm/codeforces/EducationalCodeforcesRound153/</loc>
     
     <lastmod>2023-08-19</lastmod>
     
@@ -920,7 +920,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/19/acm/codeforces/CodeforcesRound893(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/19/acm/codeforces/CodeforcesRound893/</loc>
     
     <lastmod>2023-08-19</lastmod>
     
@@ -929,7 +929,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/13/acm/codeforces/CodeforcesRound892(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/13/acm/codeforces/CodeforcesRound892/</loc>
     
     <lastmod>2023-08-13</lastmod>
     
@@ -938,7 +938,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/12/acm/codeforces/CodeforcesRound891(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/12/acm/codeforces/CodeforcesRound891/</loc>
     
     <lastmod>2023-08-12</lastmod>
     
@@ -947,7 +947,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/11/acm/codeforces/CodeforcesRound890(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/11/acm/codeforces/CodeforcesRound890/</loc>
     
     <lastmod>2023-08-11</lastmod>
     
@@ -956,7 +956,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/06/acm/codeforces/EducationalCodeforcesRound152(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/06/acm/codeforces/EducationalCodeforcesRound152/</loc>
     
     <lastmod>2023-08-06</lastmod>
     
@@ -965,7 +965,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2023/08/05/acm/codeforces/CodeforcesRound889(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2023/08/05/acm/codeforces/CodeforcesRound889/</loc>
     
     <lastmod>2023-08-05</lastmod>
     
@@ -974,7 +974,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2022/05/27/acm/codeforces/CodeforcesRound789(Div.%202)-B2.%20Tokitsukaze%20and%20Good%2001-String%20(hard%20version)/</loc>
+    <loc>https://blog.mauve.icu/2022/05/27/acm/codeforces/CodeforcesRound789-B2.%20Tokitsukaze%20and%20Good%2001-String%20(hard%20version)/</loc>
     
     <lastmod>2022-05-27</lastmod>
     
@@ -1010,7 +1010,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2021/09/29/acm/codeforces/CodeforcesRound744(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2021/09/29/acm/codeforces/CodeforcesRound744/</loc>
     
     <lastmod>2021-09-29</lastmod>
     
@@ -1019,7 +1019,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2021/03/11/acm/codeforces/CodeforcesRound706(Div.%202)-D%20Let's%20Go%20Hiking/</loc>
+    <loc>https://blog.mauve.icu/2021/03/11/acm/codeforces/CodeforcesRound706-D%20Let's%20Go%20Hiking/</loc>
     
     <lastmod>2021-03-11</lastmod>
     
@@ -1028,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2021/02/06/acm/codeforces/CodeforcesRound699(Div.%202)/</loc>
+    <loc>https://blog.mauve.icu/2021/02/06/acm/codeforces/CodeforcesRound699/</loc>
     
     <lastmod>2021-02-06</lastmod>
     
@@ -1037,7 +1037,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2021/01/25/acm/codeforces/CodeforcesRound697(Div.%203)/</loc>
+    <loc>https://blog.mauve.icu/2021/01/25/acm/codeforces/CodeforcesRound697/</loc>
     
     <lastmod>2021-01-25</lastmod>
     
@@ -1073,7 +1073,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2020/01/08/acm/codeforces/CodeforcesRound606(Div.%202)-E.-Two%20Fairs/</loc>
+    <loc>https://blog.mauve.icu/2020/01/08/acm/codeforces/CodeforcesRound606-E.-Two%20Fairs/</loc>
     
     <lastmod>2020-01-08</lastmod>
     
@@ -1082,7 +1082,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2020/01/06/acm/codeforces/CodeforcesRound612(Div.%202)-C.-Garland/</loc>
+    <loc>https://blog.mauve.icu/2020/01/06/acm/codeforces/CodeforcesRound612-C.-Garland/</loc>
     
     <lastmod>2020-01-06</lastmod>
     
@@ -1091,7 +1091,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/2019/09/30/acm/codeforces/CodeforcesRound589(Div.%202)-D-Complete%20Tripartite/</loc>
+    <loc>https://blog.mauve.icu/2019/09/30/acm/codeforces/CodeforcesRound589-D-Complete%20Tripartite/</loc>
     
     <lastmod>2019-09-30</lastmod>
     
@@ -1403,14 +1403,14 @@
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://blog.mauve.icu/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.mauve.icu/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
+    <loc>https://blog.mauve.icu/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1452,6 +1452,13 @@
   </url>
   
   <url>
+    <loc>https://blog.mauve.icu/tags/Codeforces/</loc>
+    <lastmod>2024-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.mauve.icu/tags/Luogu/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -1467,13 +1474,6 @@
   
   <url>
     <loc>https://blog.mauve.icu/tags/SDOI/</loc>
-    <lastmod>2024-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mauve.icu/tags/Codeforces/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
